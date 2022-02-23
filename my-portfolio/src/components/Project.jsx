@@ -12,7 +12,7 @@ export default function Project({ title, url, image, repo }) {
       </div>
       <div className="projectdetails">
         <div className="title">{title}</div>
-        <a title="Source Code" href={repo}>
+        <a title="Source Code" href={repo} target="_blank">
           <img src={imgSourceCode} />
         </a>
       </div>

@@ -8,11 +8,11 @@ export default function Hero() {
     <Section>
       <h1>Hi, I'm Vinita</h1>
       <div className="designation">Software Developer, Technical Lead</div>
-      <button>
+      <a href="https://github.com/vinitanandode" target="_blank">
         <img className="github__logo" src={imgGithub} />
-        <a>Checkout my Github</a>
+        Checkout my Github
         <img className="arrow__logo" src={imgArrow} />
-      </button>
+      </a>
     </Section>
   );
 }
@@ -34,7 +34,7 @@ const Section = styled.section`
     margin: 5px 0 30px 0;
   }
 
-  button {
+  a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,6 +48,7 @@ const Section = styled.section`
     font-weight: 700;
     cursor: pointer;
     padding-right: 20px;
+    text-decoration: none;
 
     .github__logo {
       padding: 3px;
