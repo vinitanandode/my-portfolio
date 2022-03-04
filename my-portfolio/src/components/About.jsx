@@ -6,13 +6,13 @@ export default function About() {
     <Section>
       <h1>About Me</h1>
       <div className="aboutme__rowone">
-        Hi there! My name is Sid. You can call me a designer, developer, or
-        creator. My interest in web development started back in 2018, when I
-        started learning HTML, CSS and Javascript. In late 2020, I discovered
-        Tailwind CSS, and was amazed! Tailwind CSS completely changed the way I
-        looked at CSS forever. No longer did I have to worry about editing
-        large, messy, and unorganized stylesheets. With Tailwind CSS, all the
-        styling was done in the HTML.
+        Hi there! My name is Vinita. You can call me a developer, technology
+        anthusiast, system designer or a coder. My interest in web development
+        started back in 2010, when I started learning HTML, CSS and Javascript.
+        In late 2020, I discovered Tailwind CSS, and was amazed! Tailwind CSS
+        completely changed the way I looked at CSS forever. No longer did I have
+        to worry about editing large, messy, and unorganized stylesheets. With
+        Tailwind CSS, all the styling was done in the HTML.
       </div>
       <div className="aboutme__rowtwo">
         Today, I run Easy UI, a community all about building websites, mostly

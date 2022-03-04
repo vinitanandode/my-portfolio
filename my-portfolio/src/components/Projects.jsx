@@ -4,6 +4,7 @@ import Project from "./Project";
 import imgP1 from "../images/linkedin2.gif";
 import imgP2 from "../images/todo2.gif";
 import imgP3 from "../images/mydashboard2.gif";
+import imgt1 from "../images/t3.jpg";
 
 const projects = [
   {
@@ -42,6 +43,7 @@ export default function Projects() {
             />
           ))}
       </div>
+      {/* <img src={imgt1} /> */}
     </Section>
   );
 }
