@@ -3,22 +3,25 @@ import styled from "styled-components";
 
 export default function About() {
   return (
-    <Section>
+    <Section id="about">
       <h1>About Me</h1>
       <div className="aboutme__rowone">
         Hi there! My name is Vinita. You can call me a developer, technology
         anthusiast, system designer or a coder. My interest in web development
-        started back in 2010, when I started learning HTML, CSS and Javascript.
-        In late 2020, I discovered Tailwind CSS, and was amazed! Tailwind CSS
-        completely changed the way I looked at CSS forever. No longer did I have
-        to worry about editing large, messy, and unorganized stylesheets. With
-        Tailwind CSS, all the styling was done in the HTML.
+        started back in 2010, when I started learning .Net, SQL Server and C#.
+        Futher more, became an expert in making Web API. To extend my interest,
+        later I explored front-end technologies, learned HTML, CSS, Javascript
+        and discovered React JS, a javascript framework library which is largely
+        adopted by many developers. This framework completely changed my way to
+        look at a website. To make things easy and hasel free, I started
+        exploring Microsoft Azure. To successfully build a scalable, robust &
+        optimized websites, knowledge of back-end, front-end and cloud
+        technologies helped me to developed different websites.
       </div>
       <div className="aboutme__rowtwo">
-        Today, I run Easy UI, a community all about building websites, mostly
-        from a frontend perspective. I also co-founded the STEM Blog, a blog
-        about STEM (Science, tech, engineering, and math). I am planning to
-        launch more projects soon.
+        Today, I work at LTI as a Technical Lead, designing systems using
+        different technologies. I manage a team of 12 full time engineers. I am
+        usually self taught and try help people solving easy & complex problems.
       </div>
     </Section>
   );

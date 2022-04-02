@@ -30,7 +30,7 @@ const projects = [
 export default function Projects() {
   return (
     <Section>
-      <h1>Projects</h1>
+      <h1 id="projects">Projects</h1>
       <div className="project">
         {projects &&
           projects.map((p, key) => (

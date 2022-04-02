@@ -5,14 +5,14 @@ export default function Header() {
   return (
     <Section>
       <div className="home">
-        <h2>@Vinita Nandode</h2>
+        <a href="#hero">@Vinita Nandode</a>
       </div>
       <ul>
         <li>
           <a href="#about">About</a>
         </li>
         <li>
-          <a>Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#contactme">Contact Me</a>
@@ -24,18 +24,29 @@ export default function Header() {
 
 const Section = styled.section`
   display: flex;
-  min-height: 50px;
-  /* border: 1px solid red; */
-  margin-top: 20px;
+  min-height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  /* border: 1px solid red;   */
   width: 100vw;
   align-items: center;
   justify-content: space-between;
+  background: white;
   color: black;
   font-size: 14px;
 
   .home {
     padding: 0 20px 0 30px;
     cursor: pointer;
+
+    a {
+      font-weight: 800;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+    }
   }
 
   ul {
@@ -55,6 +66,12 @@ const Section = styled.section`
 
       a {
         padding: 2px;
+        text-decoration: none;
+        color: black;
+
+        a:visited {
+          color: black;
+        }
       }
 
       img {

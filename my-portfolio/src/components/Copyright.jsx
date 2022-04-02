@@ -2,8 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 export default function Copyright() {
+  const currentYear = new Date().getFullYear();
   return (
-    <Section>© Copyright 2022 Vinita Nandode — All rights reserved</Section>
+    <Section>
+      © Copyright {currentYear} Vinita Nandode — All rights reserved
+    </Section>
   );
 }
 
